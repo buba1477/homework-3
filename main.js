@@ -17,3 +17,16 @@ for (var i = 0; i < 10; i++){
 return sum;
 }
 console.log (expTen(2));
+
+/*Напишите функцию getFuncRes, которая принимает два аргумента - функцию и значение.
+Функция getFuncRes должна возвращать результат выполнения переданной функции c единственным аргументом - значением.
+Вызовите функцию getFuncRes, передав первый аргумент - метод console.log и второй аргумент - значение "Hello World".*/
+
+var inf = console.log("Значение");
+var inf1 = "Hello World";
+
+function getFuncRes(aPar,bPar){
+  return aPar;
+}
+
+getFuncRes(inf, inf1);

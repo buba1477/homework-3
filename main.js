@@ -22,11 +22,9 @@ console.log (expTen(2));
 Функция getFuncRes должна возвращать результат выполнения переданной функции c единственным аргументом - значением.
 Вызовите функцию getFuncRes, передав первый аргумент - метод console.log и второй аргумент - значение "Hello World".*/
 
-var inf = console.log("Значение");
-var inf1 = "Hello World";
 
 function getFuncRes(aPar,bPar){
-  return aPar;
+  return aPar(bPar);
 }
 
-getFuncRes(inf, inf1);
+getFuncRes(console.log, 'Hello World!');
